@@ -1,6 +1,6 @@
-# 🎬 Movie-to-Book Inference Microservice
+# 🎬 Movie-to-Book API Service
 
-This project is a modular FastAPI backend powered by LangChain, Groq LLMs, and LangSmith tracing. It infers the book behind a given movie title, showcasing cinematic storytelling, multilingual chain design, and full-stack observability.
+This project is a FastAPI web service powered by LangChain, Groq LLMs, and LangSmith tracing. It infers the book behind a given movie title, showcasing AI-powered content analysis with a clean API interface and full observability.
 
 ## 🚀 Live Demo
 
