@@ -218,3 +218,4 @@ wsproto==1.2.0
 xxhash==3.6.0
 yarl==1.20.1
 zstandard==0.24.0
+gunicorn==21.2.0
