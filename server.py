@@ -41,6 +41,11 @@ app = FastAPI(title="LangServe with Groq and LangChain", version="0.1",
 ## define addroutes that connectes langxhain to langserve
 add_routes(app, chain, path="/get_book_name")
 
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
+
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
